@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfiguration.EnableAutoConfiguration=\
+com.example.studentsKeeper.config.StudentsKeeperConfiguration
+org.springframework.boot.env.EnvironmentPostProcessor=\
+com.example.studentsKeeper.config.analyzer.PropertyGuardEnvironmentPostProcessor
+org.springframework.boot.diagnostics.FailureAnalyzer=\
+com.example.studentsKeeper.config.analyzer.StudentsKeeperPropertyFailureAnalyzer
